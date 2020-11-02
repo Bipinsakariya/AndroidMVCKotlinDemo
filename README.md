@@ -1,4 +1,4 @@
-# AndroidMVCKotlinDemo
+# Android Kotlin Demo Project
 
 #Clone the Project:
 URL: https://github.com/Bipinsakariya/AndroidMVCKotlinDemo.git
