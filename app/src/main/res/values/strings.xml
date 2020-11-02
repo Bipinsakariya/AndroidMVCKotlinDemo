@@ -17,4 +17,7 @@
 
     <string name="createaccount">Don\'t have an account? Sign up</string>
     <string name="back_to_login">Back to login</string>
+    <string name="networkdialod">Network Error</string>
+    <string name="network_msg">Please check your network connection!!</string>
+    <string name="ok">OK</string>
 </resources>

@@ -23,8 +23,6 @@ class LoginActivity : AppCompatActivity() , View.OnClickListener {
     private fun init() {
         btn_login.setOnClickListener(this)
         txt_signup.setOnClickListener(this)
-
-
     }
 
     override fun onClick(view: View?) {

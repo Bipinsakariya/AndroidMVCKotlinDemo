@@ -2,7 +2,9 @@ package com.example.mvcdemo_kotlin.utils
 
 import android.app.Activity
 import android.app.AlertDialog
+import android.content.Context
 import android.content.DialogInterface
+import android.net.ConnectivityManager
 import com.example.mvcdemo_kotlin.R
 import java.util.regex.Pattern
 
@@ -37,6 +39,27 @@ class Glob {
         alert.show()
 
         //alert.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(Color.WHITE)
+    }
+
+    fun networkDoalig(context: Context) {
+
+        val builder: AlertDialog.Builder
+        builder = AlertDialog.Builder(context)
+        builder.setMessage(context.resources.getString(R.string.network_msg)).setTitle(context.resources.getString(R.string.networkdialod))
+            .setCancelable(false).setPositiveButton(context.resources.getString(R.string.ok),
+                DialogInterface.OnClickListener { dialog, id -> dialog.dismiss() })
+        val alert = builder.create()
+        if (!alert.isShowing) {
+            alert.show()
+        }
+
+    }
+
+    fun isNetworkAvailable(context: Context): Boolean {
+        val connectivityManager =
+            context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val activeNetworkInfo = connectivityManager.activeNetworkInfo
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected
     }
 
 }
