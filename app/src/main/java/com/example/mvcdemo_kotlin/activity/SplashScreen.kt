@@ -18,8 +18,10 @@ class SplashScreen : AppCompatActivity() {
 
         if(islogin){
             startActivity(Intent(this,WelcomeScreen::class.java))
+            finish()
         }else{
             startActivity(Intent(this,LoginActivity::class.java))
+            finish()
         }
 
     }

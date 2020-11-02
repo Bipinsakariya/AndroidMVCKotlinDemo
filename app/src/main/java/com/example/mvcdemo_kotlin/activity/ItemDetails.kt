@@ -29,8 +29,7 @@ class ItemDetails : AppCompatActivity(), Services.ServerOperationCompletion {
 
         val headerMap = HashMap<String, String>()
         val params = HashMap<String, String>()
-        Services().getInstance()
-            .calloperation(this, headerMap, params, this, ServiceConstants.ItemEndPoint)
+        Services().getInstance().calloperation(this, headerMap, params, this, ServiceConstants.ItemEndPoint)
 
     }
 

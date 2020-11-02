@@ -1,9 +1,9 @@
 # Android Kotlin Demo Project
 
-#Clone the Project:
+# Clone the Project:
 URL: https://github.com/Bipinsakariya/AndroidMVCKotlinDemo.git
 
-#Run Anroid Project: 
+# Run Anroid Project: 
 Link: https://developer.android.com/training/basics/firstapp/running-app
  
 # MVC structure:
@@ -23,7 +23,7 @@ View - after update trigger, it gets ItemModel from Storage, and displays the da
 Controller
 Each controller contains list of static methods used for changing models inside Storage
 
-#Folder structure:
+# Folder structure:
 - Activity : Each screen components should be stored inside Activity's own folder.
 - Fragment : Each screen components should be stored inside Fragment's own folder.
 - Utils:

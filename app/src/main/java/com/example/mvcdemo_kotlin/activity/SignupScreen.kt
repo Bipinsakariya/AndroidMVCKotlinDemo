@@ -50,7 +50,6 @@ class SignupScreen : AppCompatActivity(), View.OnClickListener {
         editor!!.putString(Glob().Name,ed_first_name.text.toString())
         editor!!.putString(Glob().Password,ed_password.text.toString())
         editor!!.putString(Glob().Email,ed_email.text.toString())
-        editor!!.putString(Glob().Password,ed_password.text.toString())
         editor!!.commit()
 
         val intent = Intent(this,WelcomeScreen::class.java)
