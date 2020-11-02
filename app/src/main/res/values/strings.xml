@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MVCDEMO_KOTLIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="empty_email">Please enter email</string>
+    <string name="empty_password">Please enter password</string>
+    <string name="errorValidEmail">Please enter valid email</string>
+    <string name="edFname">Name</string>
+    <string name="phno">Phone no</string>
+    <string name="signup">Sign Up</string>
+    <string name="empty_name">Please enter name</string>
+    <string name="errorPhno">Please enter phone number</string>
+    <string name="errorpno">Please enter current phone number</string>
+    <string name="logout">Logout</string>
+    <string name="dialog_title">Error Dialog</string>
+
+    <string name="createaccount">Don\'t have an account? Sign up</string>
+    <string name="back_to_login">Back to login</string>
+</resources>
