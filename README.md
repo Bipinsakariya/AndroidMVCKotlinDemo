@@ -1,10 +1,12 @@
 # AndroidMVCKotlinDemo
 
 #Clone the Project:
+URL: https://github.com/Bipinsakariya/AndroidMVCKotlinDemo.git
 
-URL: https://github.com/Hstory/app.git
-
-# Structure
+#Run Anroid Project: 
+Link: https://developer.android.com/training/basics/firstapp/running-app
+ 
+# MVC structure:
 Activity, Fragment
 Activities are containers for Fragments. Fragments handle lifecycle of views. After Views creation, they are subscribed to listen for ScreenState changes. Likewise, before Views destruction, they are unsubscribed to prevent memory leaks.
 
@@ -20,3 +22,15 @@ View - after update trigger, it gets ItemModel from Storage, and displays the da
 
 Controller
 Each controller contains list of static methods used for changing models inside Storage
+
+#Folder structure:
+- Activity : Each screen components should be stored inside Activity's own folder.
+- Fragment : Each screen components should be stored inside Fragment's own folder.
+- Utils:
+    - Glob: Folder that contains basic value names like Common String value, Common Function etc.
+    - Animation: All type of animation stored inside animation.
+- Model: Convert GSON to JSON data.
+- Service: ALL type of API releated file should be stored.
+
+    
+
